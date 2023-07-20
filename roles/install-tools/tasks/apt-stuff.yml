@@ -17,6 +17,9 @@
       - ntpdate
       - flameshot
       - exiftool
+      - golang
+      - rsyslog
+      - ufw
     state: latest
   become: true
   become_method: sudo
